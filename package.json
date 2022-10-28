@@ -1,0 +1,22 @@
+{
+  "name": "kata-js-fizzbuzz",
+  "version": "1.0.4",
+  "description": "JavaScript Kata FizzBuzz",
+  "main": "src/fizzbuzz.js",
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "test": "jest --config test/jest.config.js",
+    "test:watch": "jest --config test/jest.config.js --watchAll"
+  },
+  "keywords": [
+    "JavaScript",
+    "Kata",
+    "FizzBuzz"
+  ],
+  "author": "Dídac García",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0"
+  }
+}
